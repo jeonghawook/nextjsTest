@@ -12,6 +12,9 @@ const BottomBar = () => {
       <Link href="/profile">
         <span className="text-white">Profile</span>
       </Link>
+      <Link href="/category/100/flashcard">
+        <span className="text-white">Profile</span>
+      </Link>
     </div>
   );
 };

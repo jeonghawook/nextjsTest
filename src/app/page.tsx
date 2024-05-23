@@ -1,4 +1,6 @@
-import Image from "next/image";
+"use client"
+import Link from 'next/link';
+
 
 export default function Home() {
 
@@ -6,6 +8,10 @@ export default function Home() {
 
       <div>
         <h1 className="text-blue-500">I'm blue23</h1>
+        <div>hihihi</div>
+        <Link href="/category/100/flashcard">
+          <span className="text-white">Profile</span>
+        </Link>
       </div>
   )
 }
